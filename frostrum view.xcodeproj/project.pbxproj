@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C53C8BE20B26EB100E303DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53C8BD20B26EB100E303DB /* AppDelegate.swift */; };
+		2C53C8C020B26EB100E303DB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53C8BF20B26EB100E303DB /* art.scnassets */; };
+		2C53C8C220B26EB100E303DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53C8C120B26EB100E303DB /* ViewController.swift */; };
+		2C53C8C520B26EB100E303DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C53C8C320B26EB100E303DB /* Main.storyboard */; };
+		2C53C8C720B26EB200E303DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53C8C620B26EB200E303DB /* Assets.xcassets */; };
+		2C53C8CA20B26EB200E303DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C53C8C820B26EB200E303DB /* LaunchScreen.storyboard */; };
+		2C53C8D520B26EB200E303DB /* frostrum_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53C8D420B26EB200E303DB /* frostrum_viewTests.swift */; };
+		2C53C8E020B26EB200E303DB /* frostrum_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53C8DF20B26EB200E303DB /* frostrum_viewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C53C8D120B26EB200E303DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C53C8B220B26EB100E303DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C53C8B920B26EB100E303DB;
+			remoteInfo = "frostrum view";
+		};
+		2C53C8DC20B26EB200E303DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C53C8B220B26EB100E303DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C53C8B920B26EB100E303DB;
+			remoteInfo = "frostrum view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C53C8BA20B26EB100E303DB /* frostrum view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frostrum view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C53C8BD20B26EB100E303DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C53C8BF20B26EB100E303DB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2C53C8C120B26EB100E303DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C53C8C420B26EB100E303DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C53C8C620B26EB200E303DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C53C8C920B26EB200E303DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C53C8CB20B26EB200E303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C53C8D020B26EB200E303DB /* frostrum viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frostrum viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C53C8D420B26EB200E303DB /* frostrum_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frostrum_viewTests.swift; sourceTree = "<group>"; };
+		2C53C8D620B26EB200E303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C53C8DB20B26EB200E303DB /* frostrum viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frostrum viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C53C8DF20B26EB200E303DB /* frostrum_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frostrum_viewUITests.swift; sourceTree = "<group>"; };
+		2C53C8E120B26EB200E303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C53C8B720B26EB100E303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8CD20B26EB200E303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8D820B26EB200E303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C53C8B120B26EB100E303DB = {
+			isa = PBXGroup;
+			children = (
+				2C53C8BC20B26EB100E303DB /* frostrum view */,
+				2C53C8D320B26EB200E303DB /* frostrum viewTests */,
+				2C53C8DE20B26EB200E303DB /* frostrum viewUITests */,
+				2C53C8BB20B26EB100E303DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C53C8BB20B26EB100E303DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C53C8BA20B26EB100E303DB /* frostrum view.app */,
+				2C53C8D020B26EB200E303DB /* frostrum viewTests.xctest */,
+				2C53C8DB20B26EB200E303DB /* frostrum viewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C53C8BC20B26EB100E303DB /* frostrum view */ = {
+			isa = PBXGroup;
+			children = (
+				2C53C8BD20B26EB100E303DB /* AppDelegate.swift */,
+				2C53C8BF20B26EB100E303DB /* art.scnassets */,
+				2C53C8C120B26EB100E303DB /* ViewController.swift */,
+				2C53C8C320B26EB100E303DB /* Main.storyboard */,
+				2C53C8C620B26EB200E303DB /* Assets.xcassets */,
+				2C53C8C820B26EB200E303DB /* LaunchScreen.storyboard */,
+				2C53C8CB20B26EB200E303DB /* Info.plist */,
+			);
+			path = "frostrum view";
+			sourceTree = "<group>";
+		};
+		2C53C8D320B26EB200E303DB /* frostrum viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C53C8D420B26EB200E303DB /* frostrum_viewTests.swift */,
+				2C53C8D620B26EB200E303DB /* Info.plist */,
+			);
+			path = "frostrum viewTests";
+			sourceTree = "<group>";
+		};
+		2C53C8DE20B26EB200E303DB /* frostrum viewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C53C8DF20B26EB200E303DB /* frostrum_viewUITests.swift */,
+				2C53C8E120B26EB200E303DB /* Info.plist */,
+			);
+			path = "frostrum viewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C53C8B920B26EB100E303DB /* frostrum view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C53C8E420B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum view" */;
+			buildPhases = (
+				2C53C8B620B26EB100E303DB /* Sources */,
+				2C53C8B720B26EB100E303DB /* Frameworks */,
+				2C53C8B820B26EB100E303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "frostrum view";
+			productName = "frostrum view";
+			productReference = 2C53C8BA20B26EB100E303DB /* frostrum view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C53C8CF20B26EB200E303DB /* frostrum viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C53C8E720B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum viewTests" */;
+			buildPhases = (
+				2C53C8CC20B26EB200E303DB /* Sources */,
+				2C53C8CD20B26EB200E303DB /* Frameworks */,
+				2C53C8CE20B26EB200E303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C53C8D220B26EB200E303DB /* PBXTargetDependency */,
+			);
+			name = "frostrum viewTests";
+			productName = "frostrum viewTests";
+			productReference = 2C53C8D020B26EB200E303DB /* frostrum viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C53C8DA20B26EB200E303DB /* frostrum viewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C53C8EA20B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum viewUITests" */;
+			buildPhases = (
+				2C53C8D720B26EB200E303DB /* Sources */,
+				2C53C8D820B26EB200E303DB /* Frameworks */,
+				2C53C8D920B26EB200E303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C53C8DD20B26EB200E303DB /* PBXTargetDependency */,
+			);
+			name = "frostrum viewUITests";
+			productName = "frostrum viewUITests";
+			productReference = 2C53C8DB20B26EB200E303DB /* frostrum viewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C53C8B220B26EB100E303DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Abhishek Purohit";
+				TargetAttributes = {
+					2C53C8B920B26EB100E303DB = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					2C53C8CF20B26EB200E303DB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2C53C8B920B26EB100E303DB;
+					};
+					2C53C8DA20B26EB200E303DB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2C53C8B920B26EB100E303DB;
+					};
+				};
+			};
+			buildConfigurationList = 2C53C8B520B26EB100E303DB /* Build configuration list for PBXProject "frostrum view" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C53C8B120B26EB100E303DB;
+			productRefGroup = 2C53C8BB20B26EB100E303DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C53C8B920B26EB100E303DB /* frostrum view */,
+				2C53C8CF20B26EB200E303DB /* frostrum viewTests */,
+				2C53C8DA20B26EB200E303DB /* frostrum viewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C53C8B820B26EB100E303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C53C8C020B26EB100E303DB /* art.scnassets in Resources */,
+				2C53C8CA20B26EB200E303DB /* LaunchScreen.storyboard in Resources */,
+				2C53C8C720B26EB200E303DB /* Assets.xcassets in Resources */,
+				2C53C8C520B26EB100E303DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8CE20B26EB200E303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8D920B26EB200E303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C53C8B620B26EB100E303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C53C8C220B26EB100E303DB /* ViewController.swift in Sources */,
+				2C53C8BE20B26EB100E303DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8CC20B26EB200E303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C53C8D520B26EB200E303DB /* frostrum_viewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C53C8D720B26EB200E303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C53C8E020B26EB200E303DB /* frostrum_viewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C53C8D220B26EB200E303DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C53C8B920B26EB100E303DB /* frostrum view */;
+			targetProxy = 2C53C8D120B26EB200E303DB /* PBXContainerItemProxy */;
+		};
+		2C53C8DD20B26EB200E303DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C53C8B920B26EB100E303DB /* frostrum view */;
+			targetProxy = 2C53C8DC20B26EB200E303DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C53C8C320B26EB100E303DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C53C8C420B26EB100E303DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C53C8C820B26EB200E303DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C53C8C920B26EB200E303DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C53C8E220B26EB200E303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C53C8E320B26EB200E303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C53C8E520B26EB200E303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyetric.TrueFalseMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C53C8E620B26EB200E303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyetric.TrueFalseMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C53C8E820B26EB200E303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyetric.frostrum-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frostrum view.app/frostrum view";
+			};
+			name = Debug;
+		};
+		2C53C8E920B26EB200E303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyetric.frostrum-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frostrum view.app/frostrum view";
+			};
+			name = Release;
+		};
+		2C53C8EB20B26EB200E303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyetric.frostrum-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "frostrum view";
+			};
+			name = Debug;
+		};
+		2C53C8EC20B26EB200E303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XVMD56A9H;
+				INFOPLIST_FILE = "frostrum viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyetric.frostrum-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "frostrum view";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C53C8B520B26EB100E303DB /* Build configuration list for PBXProject "frostrum view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53C8E220B26EB200E303DB /* Debug */,
+				2C53C8E320B26EB200E303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C53C8E420B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53C8E520B26EB200E303DB /* Debug */,
+				2C53C8E620B26EB200E303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C53C8E720B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53C8E820B26EB200E303DB /* Debug */,
+				2C53C8E920B26EB200E303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C53C8EA20B26EB200E303DB /* Build configuration list for PBXNativeTarget "frostrum viewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C53C8EB20B26EB200E303DB /* Debug */,
+				2C53C8EC20B26EB200E303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C53C8B220B26EB100E303DB /* Project object */;
+}
